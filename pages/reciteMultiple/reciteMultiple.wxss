@@ -1,0 +1,13 @@
+.body-view {
+  color: #34495e;
+}
+
+text {
+  line-height: 1.6;
+  margin-right: 40rpx;
+}
+
+.items {
+  letter-spacing: 1px;
+  margin: 40rpx;
+}

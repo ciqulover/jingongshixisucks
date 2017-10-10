@@ -1,0 +1,16 @@
+<view class="main">
+  <view class="icon">
+    <icon type="success" wx:if="{{isAllCorrect}}" size="{{70}}"/>
+    <icon type="warn" wx:if="{{!isAllWrong&&!isAllCorrect}}" size="{{70}}"/>
+    <icon type="cancel" wx:if="{{isAllWrong}}" size="{{70}}"/>
+  </view>
+
+  <view>
+    <text class="text"> 正确率：</text>
+    <progress percent="{{percent}}" show-info active/>
+    <text class="text2" wx:if="{{!isAllCorrect}}"> 你还是需要靴习一个~</text>
+    <text class="text2" wx:if="{{isAllCorrect}}"> 厉害了全对了~</text>
+  </view>
+  <button bindtap="redo" wx:if="{{!isAllCorrect}}" type="warn">重做错题</button>
+  <button bindtap="back" type="primary">返回</button>
+</view>

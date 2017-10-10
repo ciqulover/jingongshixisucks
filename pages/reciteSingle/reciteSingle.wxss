@@ -1,0 +1,19 @@
+.body-view {
+  color: #34495e;
+}
+
+.section-1 {
+  text-align: center;
+  margin: 20rpx;
+}
+
+text {
+  color: #ffb3a7;
+  line-height: 52px;
+  margin-right: 40rpx;
+}
+
+.items {
+  letter-spacing: 1px;
+  margin: 40rpx;
+}

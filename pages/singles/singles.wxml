@@ -1,0 +1,27 @@
+<view class="body-view">
+  <view class="hint">
+    是否开启提示?
+    <switch checked="{{hint}}" bindchange="switch"/>
+  </view>
+  <view wx:for="{{displayData}}" wx:key="{{index}}" class="item">
+
+    <view wx:if="{{hint&&item.selected!=null}}" class="icon">
+      <icon type="success" wx:if="{{item.ans == item.selected}}" size="12"/>
+      <icon type="cancel" wx:if="{{item.ans != item.selected}}" size="12"/>
+    </view>
+    <text class="description">{{index+1}}: {{item.dsb}}</text>
+    <radio-group class="radio-group" data-index="{{index}}" bindchange="radioChange" class="choice">
+      <label class="radio">
+        <radio value="{{1}}" checked="{{item.selected==1}}"/>
+        <text class="text">正确</text>
+      </label>
+      <label class="radio">
+        <radio value="{{0}}" checked="{{item.selected==0}}"/>
+        <text class="text">错误</text>
+      </label>
+    </radio-group>
+  </view>
+  <view>
+    <button bindtap="submit" type="primary">查看结果</button>
+  </view>
+</view>

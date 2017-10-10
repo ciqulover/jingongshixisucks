@@ -1,0 +1,37 @@
+.body-view {
+  color: #34495e;
+  padding: 40rpx;
+}
+
+.hint{
+  text-align: center;
+  color: #ffb3a7;
+}
+
+.item{
+  position: relative;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding-left: 50rpx;
+}
+
+.icon{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.choice{
+  display: block;
+  margin: 10rpx;
+}
+
+.text{
+  font-size: 13px;
+}
+
+.description{
+  font-size: 14px;
+}

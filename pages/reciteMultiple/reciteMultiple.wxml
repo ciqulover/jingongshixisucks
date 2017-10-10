@@ -1,0 +1,8 @@
+<view class="body-view">
+  <view wx:for="{{displayData}}" wx:key="{{qid}}" class="items">
+    <text>{{index+1}}. {{item.dsb}}</text>
+
+    <icon type="success_no_circle" class="icon"/><text>{{item.ansString}}</text>
+
+  </view>
+</view>

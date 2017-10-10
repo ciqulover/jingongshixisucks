@@ -1,0 +1,17 @@
+.section{
+  padding: 40rpx;
+}
+
+.title{
+  color: #ffb3a7;
+  margin: 20rpx;
+  font-size: 14px;
+}
+
+.input{
+  margin: 20rpx;
+}
+
+button{
+  margin-top: 100rpx;
+}

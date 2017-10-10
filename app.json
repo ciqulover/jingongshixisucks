@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/nav/nav",
+    "pages/result/result",
+    "pages/select/select",
+    "pages/about/about",
+    "pages/singles/singles",
+    "pages/reciteMultiple/reciteMultiple",
+    "pages/reciteSingle/reciteSingle",
+    "pages/multiples/multiples"
+  ],
+  "window": {
+    "backgroundTextStyle": "white",
+    "backgroundColor": "#eee",
+    "navigationBarBackgroundColor": "#ffb3a7",
+    "navigationBarTitleText": "考试必过",
+    "navigationBarTextStyle": "white"
+  }
+}

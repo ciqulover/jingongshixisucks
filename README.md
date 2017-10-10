@@ -1,16 +1,5 @@
-# 金工实习在线练习
+### 苏州大学金工实习练习题 微信小程序
 
-> 金工实习在线练习，玛德制杖
+![](qr1.jpg)
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
+![](qr2.jpg)

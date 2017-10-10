@@ -1,0 +1,12 @@
+button {
+  font-weight: lighter;
+  margin-bottom: 30rpx;
+}
+
+.special {
+  display: block;
+  margin-top: 40px;
+  color: #41b883;
+  font-size: 12px;
+  line-height: 1;
+}

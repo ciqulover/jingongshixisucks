@@ -1,0 +1,22 @@
+.main{
+  padding: 40rpx;
+}
+
+
+.icon{
+  text-align: center;
+}
+
+.text{
+  display: block;
+  margin: 20rpx;
+  color: #ffb3a7;
+}
+
+.text2{
+  color: #34495e;
+}
+
+button{
+  margin: 40rpx;
+}

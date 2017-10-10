@@ -1,0 +1,24 @@
+.section{
+  padding: 40rpx;
+}
+
+.item{
+  margin: 20rpx;
+  font-size: 14px;
+}
+
+text{
+  display: block;
+  margin: 20rpx;
+}
+
+.q{
+  color: #41b883;
+}
+
+.a{
+  letter-spacing: 0.6px;
+  color: #34495e;
+  line-height: 2;
+}
+

@@ -1,0 +1,11 @@
+<view class="section">
+  <view class="title">输入随机的题目数量, 最大数量{{max}}</view>
+ <view class="input">
+   <input
+     bindinput="bindKeyInput"
+     type="number"
+     placeholder-style="color:#eee"
+     placeholder="输入题目数量"/>
+ </view>
+  <button bindtap="submit" type="primary">确定</button>
+</view>

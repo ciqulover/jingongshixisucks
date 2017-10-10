@@ -1,0 +1,9 @@
+<view class="body-view">
+  <view class="section-1">
+    <text>当前是只背{{state===true?'正确':'错'}}题</text>
+    <switch class="switch" checked="{{state}}" bindchange="switch"/>
+  </view>
+  <view wx:for="{{state?correct:wrong}}" wx:key="{{qid}}" class="items">
+    {{index+1}}. {{item.dsb}}
+  </view>
+</view>

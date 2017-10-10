@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="">
+    <button data-page="reciteSingle" bindtap="navTo">只背正确判断题</button>
+    <button data-page="reciteMultiple" bindtap="navTo">只背正确选择项</button>
+    <button data-page="singles" bindtap="navTo">随机做判断题</button>
+    <button data-page="multiples" bindtap="navTo">随机做选择题</button>
+    <button data-page="allSingles" bindtap="navTo">全量判断题</button>
+    <button data-page="allMultiples" bindtap="navTo">全量选择题</button>
+  </view>
+  <view>
+    <text class="special" bindtap="toAbout">关于</text>
+  </view>
+</view>
